@@ -1,0 +1,5 @@
+unique pore xyz, STRONG and unique_id 
+file_name 	 unique_id 	 STRONG 
+pore1.xyz.xyz 	 1 	 FFZFFZFFZFFZFFFAAF 
+pore10.xyz.xyz 	 2 	 FFZFZFFFZFFZFZFFFZ 
+pore1005.xyz.xyz 	 3 	 FFZFZFFFZFZFFFZFZF 
