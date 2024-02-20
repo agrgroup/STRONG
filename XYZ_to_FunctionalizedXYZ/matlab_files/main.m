@@ -34,6 +34,7 @@ bond_OH = 0.98;
 bond_CN = 1.47;
 bond_CO1 = 1.26;
 
+mkdir ('functional_xyz')
 cd functional_xyz
 
 for i = 1:size(unique_func_strongs,1)
