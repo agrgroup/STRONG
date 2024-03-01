@@ -19,4 +19,16 @@ Output- STRONGS (Comparing_Nanopores/text_files/unique_pore_subset.txt)
 
 The xyz files to be compared are kept in the xyz_file folder in the Comparing_Nanopores sub-directory. main.m (Comparing_Nanopores/matlab_files/main.m) MATLAB script is used to compare nanopores (xyz files) present in the directory "Comparing_Nanopores/xyz_file". The information regaridng the unique number of xyz files is stored in the txt format present in "Comparing_Nanopores/text_files" directory.
 
+## Converting STRONGs to Canonical STRONGs
+Input- STRONGs (STRONG_to_Canonical_STRONG/STRONGS.txt) <br>
+Output- Canonical STRONGS (STRONG_to_Canonical_STRONG/canonical_strongs.txt)
+
+The STRONGs is converted to canonical STRONGs which is used as an feature for machine learning (ML) model using the main.m (STRONG_to_Canonical_STRONG/main.m) MATLAB script. The STRONGs to be canonicalized are kept as a text file in the STRONG_to_Canonical_STRONG directory. Canonicalized STRONGs i.e., an output of the MATLAB script is present as an text file in STRONG_to_Canonical_STRONG directory. 
+
+## Machine Learning for strucutre-property relationship
+Input- csv files (Machine_Learning/input/*.csv) <br>
+Output- parity plots (Machine_Learning/figures/formation_time/parity_plot.png, Machine_Learning/figures/formation_energy/parity_plot.png, Machine_Learning/figures/CO2_barrier_1/parity_plot.png)
+
+
+
 
