@@ -29,6 +29,12 @@ The STRONGs is converted to canonical STRONGs which is used as an feature for ma
 Input- csv files (Machine_Learning/input/*.csv) <br>
 Output- parity plots (Machine_Learning/figures/formation_time/parity_plot.png, Machine_Learning/figures/formation_energy/parity_plot.png, Machine_Learning/figures/CO2_barrier_1/parity_plot.png)
 
+## Enumerating stable nanopores
+
+## Converting STRONGs to XYZ
+
+## XYZ to functionalized STRONG
+
 
 
 
