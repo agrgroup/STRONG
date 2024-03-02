@@ -32,11 +32,22 @@ Output- parity plots (Machine_Learning/figures/formation_time/parity_plot.png, M
 Jupyter notebooks for formation time (Machine_Learning/ft_canonical_STRONGs.ipynb), formation energy (Machine_Learning/fe_canonical_STRONGs.ipynb), and CO2 gas permeation barrier (Machine_Learning/barrier_CO2_canonical_STRONGs_radius_feature_1.ipynb) are run to obtain the ML performance matrix and parity plot present in the figures sub-directory for each structure-property.  
 
 ## Enumerating stable nanopores
+Input- "N" number of atoms to be removed from the graphene nanopore lattice (STRONG_Enumeration/stable_nanopores.m) <br>
+Output- enumerated STRONGs and time of enumeration (STRONG_Enumeration/enumerated_strongs.txt, STRONG_Enumeration/enumerated_strongs_time.txt)
 
+The user need to input "N" number of atoms removed from the grahene lattice in the stable_nanopores.m (STRONG_Enumeration/stable_nanopores.m) MATLAB script before executing the script file. The enumerated STRONGs are stored in enumerated_strongs.txt file and the time of enumeration is stored in enumerated_strongs_time.txt file. 
 
 ## Converting STRONGs to XYZ
+Input- STRONGs (STRONG_to_XYZ/strongs.txt) <br>
+Output- XYZ files (STRONG_to_XYZ/*.xyz)
+
+STRONGs to be converted to XYZ files are strored in a text file (STRONG_to_XYZ/strongs.txt). Run the strong_to_xyz.m (STRONG_to_XYZ/strong_to_xyz.m) MATLAB script to generate all the XZY files corrsponding to each STRONG. 
 
 ## XYZ to functionalized STRONG
+Input- XYZ file (XYZ_to_FunctionalizedXYZ/pore_xyz_file/*.xyz) <br>
+Output- XYZ files (STRONG_to_XYZ/functional_xyz/*.xyz)
+
+A input XYZ file for which the all the possible functionalized XYZ files to be generated is placed in the pore_xyz_file sub-directory (XYZ_to_FunctionalizedXYZ/pore_xyz_file/*.xyz). The main.m (XYZ_to_FunctionalizedXYZ/matlab_files/main.m) MATLAB script is executed to generate all the functionlized XYZ files stored in the functional_xyz (XYZ_to_FunctionalizedXYZ/functional_xyz) sub-directory generated after the execution of the MATLAB script.  
 
 
 
