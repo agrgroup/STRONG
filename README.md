@@ -1,6 +1,6 @@
 # STRONG: STring Representation of Nanopore Geometry
 
-### Machine Learnable and Rapidly Interpretable Language for Nanopores Enables Structure-Property Relationships in Nanoporous 2D Materials
+### Machine Learnable Language for the Chemical Space of Nanopores Enables Structure-Property Relationships in Nanoporous 2D Materials
 > Piyush Sharma, Sneha Thomas, Mahika Nair, and Ananth Govind Rajan
 
 ## Contents
