@@ -108,11 +108,11 @@ new_folder = strcat(d,'\','H_fun_xyz_file');
 cd (new_folder)
 
 H_pore_filename = porexyzfilename;
-H_pore_filename(:,[1:4]) = [];
-H_pore_filename(:,[end-3:end]) = [];
+%H_pore_filename(:,[1:4]) = [];
+%H_pore_filename(:,[end-3:end]) = [];
 
 % writing xyz file
-fileID = fopen(strcat('pore_H_',string(H_pore_filename),'.xyz'),'w');
+fileID = fopen(strcat('pore_H_',string(H_pore_filename)),'w');%,'.xyz'
 fprintf(fileID,'%d \n',size(functionalized_element,1));
 str_head = sprintf('H_Functionalization');
 fprintf(fileID,'%s \n',str_head);
