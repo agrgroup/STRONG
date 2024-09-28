@@ -293,29 +293,6 @@ if (isempty(index_removed_atom) == 0)
     end
 end
 
-%% Removing F atom from the horse-shoe pore structure
-
-% index_removed_atom = [];
-% if (isempty(potential_atom_index) == 0)
-%     for j = 1:size(pore_index,1)
-%         if (type(j,1) == 'C')
-%             for k = 1:size(potential_atom_index)
-%                 dist = sqrt((coords(pore_index(j,1),1) - coords(potential_atom_index(k,1),1))^2 + (coords(pore_index(j,1),2) - coords(potential_atom_index(k,1),2))^2);
-%                 if (dist > 5.10 && dist < 5.20)
-%                     index_removed_atom = [index_removed_atom;potential_atom_index(k,1)];
-%                 end
-%             end
-%         end
-%     end
-% end
-% 
-% if (isempty(index_removed_atom) == 0)
-%     for j = 1:size(index_removed_atom,1)
-%         row = find(index_removed_atom(j,1) == pore_index);
-%         pore_index(row,:) = [];
-%         type(row,:) = [];
-%     end
-% end
 
 %% finding the neighbor of 1,2 and 3 bonded atoms
 
