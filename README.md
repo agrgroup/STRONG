@@ -55,4 +55,3 @@ Input: XYZ file (H_func_xyz_file/pore_xyz_file/*.xyz) <br>
 Output: XYZ files (H_func_xyz_file/pore_xyz_file/H_fun_xyz_file/pore_H_*.xyz)
 
 All the XYZ files must be kept in the pore_xyz_file folder in the H_func_xyz_file/pore_xyz_file directory. The main.m (H_func_xyz_file/matlab_files/main.m) MATLAB script generates the H functionalized XYZ files in the directory "H_func_xyz_file/pore_xyz_file/H_fun_xyz_file" after the execution of the MATLAB script.
-
