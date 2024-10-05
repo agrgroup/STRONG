@@ -4,7 +4,7 @@
 > Piyush Sharma, Sneha Thomas, Mahika Nair, and Ananth Govind Rajan
 
 ## Contents
-This repository contains the necessary MATLAB/Python scripts for storing, manipulating, and comparing nanopores in graphene using a new language framework called STring Representations of Nanopore Geometry (STRONGs). These scripts enable the following tasks:
+This repository contains the necessary MATLAB/Python scripts for developing structure-property relationships, as well as for storing, manipulating, and comparing nanopores in graphene using a new language framework called STring Representations of Nanopore Geometry (STRONGs). These scripts enable the following tasks:
 
 ## Generating the STRONG for an XYZ file
 Input: XYZ files (XYZ_to_STRONG/xyz_file/*.xyz) <br>
